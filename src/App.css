@@ -1,62 +1,56 @@
 .App {
   text-align: center;
   display: flex;
-  background-color:#F6F6F3;
+  background-color: #f6f6f3;
   justify-content: center;
   height: 100vh;
   width: 100%;
   align-items: center;
-  
 }
 
-.container{
-
+.container {
   width: 800px;
   height: 860px;
   background-color: white;
   display: grid;
-  grid-template-columns: 500px 300px ;
+  grid-template-columns: 500px 300px;
   grid-template-rows: 200px 200px 220px 110px 130px;
   border-radius: 20px;
-box-shadow: 5px 5px 10px rgba(156, 153, 153, 0.662);
- 
+  box-shadow: 5px 5px 10px rgba(156, 153, 153, 0.662);
 }
-.container__tip{
-grid-column-start: 1;
-grid-column-end: 3;
-text-align: center;
-display: flex;
-align-items: center;
-justify-content: center;
-border-top: solid thin rgba(128, 128, 128, 0.396);
-height: 200px;
-
+.container__tip {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: solid thin rgba(128, 128, 128, 0.396);
+  height: 200px;
 }
-.container__total{
+.container__total {
   grid-column-start: 1;
   grid-column-end: 3;
 }
-.container__percentage{
+.container__percentage {
   grid-column-start: 1;
   grid-column-end: 3;
 }
-.button{
+.button {
   grid-column-start: 1;
   grid-column-end: 3;
 }
 .usd {
   font-weight: bold;
   font-size: 100px;
- 
 }
-.dollar{
+.dollar {
   font-weight: bold;
   font-size: 50px;
   padding-left: 25px;
-  padding-bottom: 25px; 
-  
+  padding-bottom: 25px;
 }
-.container__amount{
+.container__amount {
   background-color: rgba(232, 232, 232, 0.766);
   display: flex;
   flex-direction: column;
@@ -66,7 +60,7 @@ height: 200px;
   border: solid 1px rgba(128, 128, 128, 0.396);
   border-top-left-radius: 20px;
 }
-.input_amount{
+.input_amount {
   background: inherit;
   border: none;
   width: 300px;
@@ -80,22 +74,21 @@ height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
-.points{
+.points {
   margin-top: -16px;
 }
-.container__people{
+.container__people {
   background-color: rgba(232, 232, 232, 0.766);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding-top: 35px;
-  border:  solid 1px rgba(128, 128, 128, 0.396);
+  border: solid 1px rgba(128, 128, 128, 0.396);
   border-top-right-radius: 20px;
 }
-.input_people{
+.input_people {
   background: inherit;
   border: none;
   width: 150px;
@@ -104,13 +97,12 @@ height: 200px;
   font-size: 80px;
   font-weight: bold;
   text-align: center;
-  
 }
-.label_sub{
+.label_sub {
   margin-top: -16px;
   font-weight: bold;
 }
-.radio{
+.radio {
   visibility: hidden;
   position: absolute;
 }
@@ -124,26 +116,25 @@ height: 200px;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(156, 153, 153, 0.662);
 }
-label{
+label {
   font-size: 20px;
   color: rgb(72, 202, 159);
   font-weight: bold;
 }
-.container__percentage{
-background-color: rgba(203, 201, 201, 0.781);
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content:space-around;
+.container__percentage {
+  background-color: rgba(203, 201, 201, 0.781);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
-input[type="radio"]:checked + .label  {
+input[type="radio"]:checked + .label {
   background-color: rgb(72, 202, 159);
-  
-  }
-input[type="radio"]:checked + .label > label  {
+}
+input[type="radio"]:checked + .label > label {
   color: white;
-  }
-.button{
+}
+.button {
   width: 340px;
   height: 60px;
   border-radius: 10px;
@@ -151,15 +142,15 @@ input[type="radio"]:checked + .label > label  {
   background-color: rgb(231, 68, 4);
   color: white;
   font-size: 22px;
-  }
-  .container_button {
-    display: flex;
-    background-color: rgba(232, 232, 232, 0.766);
-    grid-column-start: 1;
-    grid-column-end: 3;
-    align-items: center;
-    justify-content: end;
-    padding-right: 40px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-  }
+}
+.container_button {
+  display: flex;
+  background-color: rgba(232, 232, 232, 0.766);
+  grid-column-start: 1;
+  grid-column-end: 3;
+  align-items: center;
+  justify-content: end;
+  padding-right: 40px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
